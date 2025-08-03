@@ -82,7 +82,9 @@ export const ready = async () => {
 
 	// Auto updates
 	// eslint-disable-next-line no-new
-	new AutoUpdate();
+	
+	// TODO: fix the auto update under production
+	// new AutoUpdate();
 
 	// Idle
 	Logger.status($init.mainIdle);
